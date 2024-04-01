@@ -14,7 +14,7 @@ public class Core {
     private static final Random random = new Random();
 
     public static String[] getImageUrlFull() {
-        int randomNumber = random.nextInt(46) + 1; // Assuming there are 1000 images
+        int randomNumber = random.nextInt(70) + 1; // Assuming there are 1000 images
         String imageName = "img-core" + randomNumber + ".jpg";
         return new String[] { imageUrl + imageName + "?raw=true", imageName };
     }
