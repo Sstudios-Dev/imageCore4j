@@ -13,7 +13,7 @@ public class Anime {
     private static final Random random = new Random();
 
     public static String[] getRandomAnimeImageUrl() {
-        int randomNumber = random.nextInt(120) + 1; // Assuming there are 1000 images
+        int randomNumber = random.nextInt(200) + 1; // Assuming there are 1000 images
         String imageName = "img-anime" + randomNumber + ".jpg";
         return new String[] { animeImageUrl + imageName + "?raw=true", imageName };
     }
